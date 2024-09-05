@@ -15,7 +15,6 @@ return new class extends Migration
         Schema::create('postsatu', function(Blueprint $table){
             $table->id();
             $table->date('date');	//here is date
-            //time
             $table->time('time');	//here is time
             $table->string('name');
             $table->timestamps();
